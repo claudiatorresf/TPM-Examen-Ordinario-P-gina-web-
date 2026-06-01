@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Home.html">CLAUDIA TORRES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title " id="offcanvasNavbarLabel">CLAUDIA TORRES</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 ">
+
+          <li class="nav-item">
+    <a class="nav-link active" href="Sobre mi.html">
+      Sobre mi
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Portfolio.html">
+      Portfolio
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Clientes.html">
+      Clientes
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Metodología.html">
+      Metodología sostenible
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Blog.html">
+      Blog
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Contacto.html">
+      Contacto
+    </a>
+  </li>
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="Home.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+  </ol>
+</nav>
+
+
+<div class="container-fluid px-5">
+  <div class="row">
+
+  
+    <div class="col-12 col-md-5 py-5">
+      <h1>
+        <span class="claudia">Contacta conmigo</span><span class="coma">,</span>
+        <span class="subtitulo">para dar forma visual a nuevas ideas<span class="puntorosa">.</span></span>
+      </h1>
+      <p class="col-md-10 pt-5" style="color: white; text-align:justify;">
+        Si deseas más información sobre los proyectos, colaboraciones o cualquier consulta relacionada con el trabajo artístico y los procesos presentados, puedes ponerte en contacto a través del formulario.
+      </p>
+    <div class="pt-5 mt-5">
+    <p class="mb-1" style="color: white;">Claudiaa.torress.fernandezz@gmail.com</p>
+    <p class="mb-4" style="color: white;">(+34) 617226009</p>
+
+    <p class="mb-1" style="color: white;">Linkedin. <a href="#" style="color: white; text-decoration: none;">Claudia Torres Fernández</a></p>
+    <p class="mb-4" style="color: white;">Instagram. <a href="#" style="color: white; text-decoration: none;">@Claaudia.torress</a></p>
+
+    <a href="Portfolio.html" class="CTA2 ps-0">VER PROYECTOS</a>
+  </div>
+
+</div>
+
+    <div class="col-12 col-md-5">
+      <form action="procesar.php" method="post" autocomplete="on" class="formulario-contacto p-5">
+
+        <div class="mb-4">
+          <label for="nombre" class="form-label label-form">Nombre completo</label>
+          <input type="text" class="form-control input-form" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="mb-4">
+          <label for="phone" class="form-label label-form">Teléfono</label>
+          <input type="tel" class="form-control input-form" id="phone" name="phone" required>
+        </div>
+
+        <div class="mb-4">
+          <label for="email" class="form-label label-form">Gmail</label>
+          <input type="email" class="form-control input-form" id="email" name="email" required>
+        </div>
+
+        <div class="mb-4">
+          <label for="servicio" class="form-label label-form">Servicio a contratar</label>
+          <select class="form-select input-form" id="servicio" name="servicio" required>
+            <option value="" selected></option>
+            <option value="editorial">Diseño editorial</option>
+            <option value="carteleria">Cartelería</option>
+            <option value="identidad">Identidad visual</option>
+            <option value="senaletica">Señalética</option>
+            <option value="fotografia">Fotografía</option>
+          </select>
+        </div>
+
+        <div class="mb-5">
+          <label for="mensaje" class="form-label label-form">Mensaje</label>
+          <textarea class="form-control input-form" id="mensaje" name="mensaje" rows="6"></textarea>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn boton-enviar px-5">Enviar</button>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</div>
+
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>

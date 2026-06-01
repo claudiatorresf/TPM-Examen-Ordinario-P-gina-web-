@@ -1,0 +1,427 @@
+
+.home{
+    color: white;
+    text-align: justify;
+    font-size: 100px;
+   
+}
+.portfolio-col{
+    border-right: 1px solid rgba(255,255,255,0.2);
+    padding: 5rem;
+    color: white;
+    text-align: justify;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+.col-editorial:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Client_elena_cartel.jpg');
+}
+
+.col-carteleria:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_cart_new\ yorker.jpg');
+}
+
+.col-identidad:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_identid_storie.jpg');
+}
+
+.col-senaletica:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_señ_1.JPG');
+}
+
+.col-fotografia:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_fot_cuadro.jpg');
+}
+
+.col-uev:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Client_UE-arbol\ 2.JPG');
+}
+
+.col-cadir:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Client_cadir_5\ copia.jpg');
+}
+
+.col-elena:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Client_elena_2.jpg');
+}
+
+.col-russafart:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/russafart\ logo\ copia.png');
+}
+
+body{
+    background-color: #1b1f24;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
+.navbar {
+    background-color: #1b1f24;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+.offcanvas{
+    --bs-offcanvas-bg: #1b1f24;
+    --bs-offcanvas-color: white;
+}
+.offcanvas .nav-link,
+.offcanvas .nav-link.active {
+    color: white;
+}
+.offcanvas .nav-link:hover {
+    color: #db7b89 
+}
+
+
+
+.navbar-toggler{
+    border-color:#1b1f24;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    filter: invert(1);
+
+}
+
+
+.breadcrumb-item a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+     padding: 10px;
+    transition: 0.3s;
+}
+
+.breadcrumb-item.active{
+    color: white;
+    
+}
+
+.breadcrumb-item.breadcrumb-item:before{
+    color: white;
+
+
+}
+
+.breadcrumb-item a:hover{
+    color: #db7b89;
+    
+}
+
+
+.portfolio-col{
+    border-right: 1px solid rgba(255,255,255,0.2);
+    padding: 3rem 2rem;
+    color: white;
+    text-align: justify;
+    
+}
+
+.portfolio-col:last-child{
+    border-right: none;
+}
+
+
+.portfolio-col p{
+    color: white;
+    text-align:justify;
+    font-size: 14px;
+}
+
+
+.btn-link{
+    color: #db7b89;
+    text-decoration:line;
+    padding: 10px;
+    transition: 0.3s;
+    display: inline-block;
+
+    
+}
+
+.btn-link:hover{
+    color: white;
+}
+
+.titulocolumnas{
+     margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size:  25px;
+    font-weight: bold;
+    color: white;
+}
+
+.home2 {
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-size: cover;
+    background-position: center;
+}
+.puntofinal{
+    color: #db7b89;
+    font-size:30px;
+}
+
+.col-sobremi:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Imagen\ yo.jpg');
+}
+
+.col-portfolio:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_cart_vicent\ marco.jpg');
+}
+
+.col-clientes:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Client_UE_señal3.JPG');
+}
+
+.col-metodologia:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Port_fot_gafas.jpg');
+}
+.col-blog:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Blog_1.jpg');
+}
+.col-contacto:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../IMG/Foto\ yo2.jpeg');
+}
+
+.claudia{
+    color: #db7b89;
+   margin-top: 10px;
+   font-weight: 300;
+    font-size: 3rem;
+  
+
+}
+
+.subtitulo{
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+
+
+}
+
+.puntorosa{
+    color: #db7b89;
+    font-size: inherit
+    
+}
+
+.CTA1{
+    color: #db7b89;
+    padding: 20px;
+    font-size: 14px;
+    margin-left: 60px;
+
+}
+.CTA1:hover{
+    color: white;
+
+}
+
+.CTA2{
+color: white;
+    padding: 20px;
+    font-size: 14px;
+    margin-left: 60px;
+    white-space: nowrap;
+
+}
+
+.CTA2:hover{
+color:#db7b89;
+
+   
+}
+
+
+.imagenyo{
+    width: 100%;
+      max-width: 340px;
+     
+      
+}
+
+.coma{ 
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.secciones{
+    color: white;
+    text-align: justify;
+
+}
+
+.textosecciones{
+    color: white;
+    text-align: justify;
+    padding-top: 1rem;
+    
+}
+.Bio{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 3rem;
+}
+.visualsubtitulo{
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.metodologia{
+
+    padding-top: 10rem;
+}
+
+.titulometodologia{
+   font-weight: 300;
+    font-size: 3rem;
+    color:#db7b89;
+}
+
+.filametodologia{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.fecha {
+    color: white;
+    font-size: 13px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+}
+
+.formulario-contacto {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.label-form {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.input-form {
+    background-color: #2a2e33;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    color: white;
+    padding: 14px 20px;
+}
+
+.input-form:focus {
+    background-color: #2a2e33;
+    border-color: #db7b89;
+    color: white;
+    
+}
+
+
+.input-form option {
+    background-color: #2a2e33;
+    color: white;
+}
+
+.boton-enviar {
+    background-color: #db7b89;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 12px 40px;
+    transition: 0.3s;
+}
+
+.boton-enviar:hover {
+    background-color: white;
+    color: #db7b89;
+}
+
+.botonproyectos{
+
+    margin-bottom: 40px;
+    display: block;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+.botonproyectos:hover{
+color: #db7b89;
+border: 2px solid #db7b89 !important;
+    
+}
+.contenedor-galeria {
+    max-width: 700px;   
+}
+.img-galeria {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.CTA-carteleria {
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.CTA-carteleria:hover {
+    color: #db7b89;
+}
+
+.titulo-proyecto {
+    color: #db7b89;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.texto-proyecto {
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 1rem;
+    margin: rem;
+}
+.contenedor-galeria2 {
+    max-width: 650px;   
+}
+
